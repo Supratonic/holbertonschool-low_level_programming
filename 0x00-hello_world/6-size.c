@@ -6,14 +6,12 @@
  */
 int main(void)
 {
-	clrscr();
 	printf("TypettttSize (bytes)");
-	printf("nCharacterttt    %d", sizeof(char));
-	printf("nIntegertttt    %d", sizeof(int));
-	printf("nLong intttt    %d", sizeof(long int));
-	printf("nFloattttt    %d", sizeof(float));
-	printf("nDoubletttt    %d", sizeof(double));
-	printf("nLong doublettt    %d", sizeof(long double));
-	getch();
+	printf("nCharacterttt    %ld", sizeof(char));
+	printf("nIntegertttt    %ld", sizeof(int));
+	printf("nLong intttt    %ld", sizeof(long int));
+	printf("nFloattttt    %ld", sizeof(float));
+	printf("nDoubletttt    %ld", sizeof(double));
+	printf("nLong doublettt    %ld", sizeof(long double));
 	return (0);
 }
